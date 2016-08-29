@@ -10,8 +10,15 @@ window.init_redactor = function(){
       "uploadImageFields": params,
       "imageGetJson":"/redactor_rails/pictures",
       "path":"/assets/redactor-rails",
-      "css":"style.css"}
+      "css":"style.css",
+      "plugins": ['fontsize',
+                  'fontcolor',
+                  'fontfamily',
+                  'fullscreen',
+                  'textdirection',
+                  'clips']
+    }
   );
 }
 
-$(document).on( 'ready page:load', window.init_redactor );
+$(document).on('ready', window.init_redactor );
