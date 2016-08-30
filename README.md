@@ -1,3 +1,6 @@
+# This is a fix to an issue 151 #
+
+[Issue 151](https://github.com/SammyLin/redactor-rails/issues/151)
 
 # Rails 3.2 Integration for Redactor (Devise Edition)
 
